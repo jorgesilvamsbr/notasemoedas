@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95d8fb0f-8be4-4473-8feb-17312e3fa3fa" name="Default Changelist" comment="" />
+    <list default="true" id="95d8fb0f-8be4-4473-8feb-17312e3fa3fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/URI/main/caixa/RelatorioDeContagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/URI/main/caixa/RelatorioDeContagem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/caixa/Caixa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/caixa/Caixa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/caixa/RelatorioDeContagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/caixa/RelatorioDeContagem.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +38,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="50" />
-          <entry key="java" value="2237" />
+          <entry key="java" value="2326" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2237" />
+          <entry key="JAVA" value="2326" />
           <entry key="PLAIN_TEXT" value="50" />
         </counts>
       </usages-collector>
@@ -45,10 +51,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/caixa/CaixaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="238">
               <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
             </state>
           </provider>
@@ -57,17 +63,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/caixa/RelatorioDeContagem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            <state relative-caret-position="323">
+              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/caixa/Caixa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="510">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -105,6 +111,9 @@
       <find>fractional</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -116,6 +125,8 @@
         <option value="$PROJECT_DIR$/src/CaixaTest.java" />
         <option value="$PROJECT_DIR$/src/caixa/Caixa.java" />
         <option value="$PROJECT_DIR$/src/test/caixa/CaixaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/caixa/RelatorioDeContagem.java" />
+        <option value="$PROJECT_DIR$/src/main/caixa/Caixa.java" />
       </list>
     </option>
   </component>
@@ -130,6 +141,9 @@
     <option name="y" value="27" />
     <option name="width" value="1901" />
     <option name="height" value="1110" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -188,7 +202,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541351059024" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541353335827" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -297,14 +311,11 @@
       <option name="presentableId" value="Default" />
       <updated>1541124688558</updated>
       <workItem from="1541124689962" duration="5820000" />
-      <workItem from="1541193951025" duration="6428000" />
+      <workItem from="1541193951025" duration="7281000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CaixaTest_deve_retornar_duas_notas_de_cem_e_uma_de_cinquenta - 2018.11.03 at 02h 50m 23s.xml">
-      <configuration name="CaixaTest.deve_retornar_duas_notas_de_cem_e_uma_de_cinquenta" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CaixaTest_deve_retornar_duas_notas_de_cem_e_uma_de_cinquenta - 2018.11.03 at 02h 51m 39s.xml">
       <configuration name="CaixaTest.deve_retornar_duas_notas_de_cem_e_uma_de_cinquenta" configurationId="JUnit" />
     </history-entry>
@@ -332,9 +343,12 @@
     <history-entry file="CaixaTest_(1) - 2018.11.03 at 03h 04m 00s.xml">
       <configuration name="CaixaTest (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CaixaTest_(1) - 2018.11.04 at 14h 37m 02s.xml">
+      <configuration name="CaixaTest (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12248000" />
+    <option name="totallyTimeSpent" value="13101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1125" extended-state="6" />
@@ -350,7 +364,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5653437" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19845112" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4714424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -455,20 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/caixa/RelatorioDeContagem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/caixa/Caixa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/caixa/Nota.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -485,8 +485,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/caixa/CaixaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="238">
           <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/caixa/RelatorioDeContagem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/caixa/Caixa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
         </state>
       </provider>
     </entry>

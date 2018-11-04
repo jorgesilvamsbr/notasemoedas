@@ -1,5 +1,7 @@
 package main.caixa;
 
+import static java.util.Arrays.stream;
+
 public class Caixa {
 
     private final RelatorioDeContagem relatorioDeContagem;
@@ -17,20 +19,20 @@ public class Caixa {
     }
 
     private void contarMoedas() {
-        for (Moeda moeda : Moeda.values()) {
+        stream(Moeda.values()).forEach(moeda -> {
             while ((valor / moeda.getValor()) >= 1) {
                 relatorioDeContagem.adicionarMoeda(moeda);
                 valor = valor - moeda.getValor();
             }
-        }
+        });
     }
 
     private void contarNotas() {
-        for (Nota nota : Nota.values()) {
+        stream(Nota.values()).forEach(nota -> {
             while ((valor / nota.getValor()) >= 1) {
                 relatorioDeContagem.adicionarNota(nota);
                 valor = valor - nota.getValor();
             }
-        }
+        });
     }
 }

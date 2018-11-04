@@ -25,19 +25,19 @@ public class RelatorioDeContagem {
         this.moedas.put(Moeda.UM_CENTAVO, 0);
     }
 
-    public int obterQtdDeNotasNoValorDe(Nota valorDeNotaDesejado){
-        return this.notas.get(valorDeNotaDesejado);
+    public int obterQtdDeNotasNoValorDe(Nota notaDesejada){
+        return this.notas.get(notaDesejada);
     }
 
-    public int obterQtdDeMoedasNoValorDe(Moeda valorDeNotaDesejado){
-        return this.moedas.get(valorDeNotaDesejado);
+    public int obterQtdDeMoedasNoValorDe(Moeda moedaDesejada){
+        return this.moedas.get(moedaDesejada);
     }
 
     public void adicionarNota(Nota nota) {
-        this.notas.put(nota, this.notas.get(nota) + 1);
+        this.notas.put(nota, obterQtdDeNotasNoValorDe(nota) + 1);
     }
 
     public void adicionarMoeda(Moeda moeda) {
-        this.moedas.put(moeda, this.moedas.get(moeda) + 1);
+        this.moedas.put(moeda, obterQtdDeMoedasNoValorDe(moeda) + 1);
     }
 }
